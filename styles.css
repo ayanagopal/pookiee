@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Chewy&family=Fredoka:wght@300..700&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiny5&display=swap');
+
+
+body {
+    background-color: #F7CFD8;
+}
+
+a {
+    text-decoration: none;
+    font-size: xx-large;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #F4F8D3;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #DE3163;
+
+}
+
+
+
+a:hover {
+    transition: 0.5s ease-in-out;
+    background-color: black;
+    color: #DE3163;
+    background-color:#ffffff ;
+    border: 5px solid #DE3163;
+
+}
+
+.caption {
+    font-size: 20px;
+    color: rgb(251, 160, 225);
+}
+
+
+
+.content {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.heading{
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    color: #DA498D;
+    font-size: 1.3rem;
+}
+
+
+.btns {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bb {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px; 
+    height: 80px;
+    overflow: hidden; 
+}
+
+#no {
+    width: 100px;
+    text-align: center;
+    height: 80px;
+}
+
+
+.caption {
+    font-size:20px; 
+    position: absolute;
+    bottom: 5px; 
+    width: 100%;
+}
+
+.image img {
+    width: 57%; 
+    height: auto;}
+
+
+@media screen and (max-width:767px) {
+    .content {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    
+    }
+
+    .btns {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+.heading{
+   font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    color: #DA498D;
+    font-size: 1rem;
+    text-align: center;
+}
+.caption {
+    font-size: 15px;
+    color: rgb(251, 160, 225);
+}
+
+
+
+    }
+
+
